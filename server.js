@@ -1,11 +1,11 @@
-const myConnection = require('./config/connect')
-const mysql = require('mysql2');
+const myConnection = require('./config/connect');
 const inquirer = require('Inquirer');
 const cTable = require('console.table');
 
+
 myConnection.connect(() => {
     userPrompt();
-})
+});
 
 const userPrompt = () => {
     inquirer.prompt([
@@ -68,7 +68,7 @@ const viewDepartments = () => {
         if (err) {
             throw err
         } else {
-            console.log(res);
+            console.table(res);
         }
         userPrompt();
     });
@@ -80,7 +80,7 @@ const viewRoles = () => {
         if (err) {
             throw err;
         } else {
-            res.forEach((role) => {console.log(role.title);});
+            res.forEach((role) => {console.table(role.title);});
         };
         userPrompt();
     });
@@ -92,7 +92,7 @@ const viewEmployees = () => {
     myConnection.query(sql, (err, res) => {
         if (err) {
             throw err;
-        } else {console.log(res);};
+        } else {console.table(res);};
         userPrompt();
     });
 };
@@ -242,3 +242,4 @@ const addEmployee = () => {
     });
 };
 };
+

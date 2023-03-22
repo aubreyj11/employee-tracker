@@ -29,7 +29,7 @@ Inquirer version 8.2.4 must be installed for this application to work as well as
 <br>
 
 ## Usage
-Explain here how the user will navigate and use the program.
+After making sure all dependencies are installed, run 'node server.js' and prompts will appear. It will be connected to the database used to keep track of the employees, roles, and departments. Click on the option you would like to do (ex. View All Departments) and you will be given the means to complete that option. 
 
 <br><br><br>
 ![alt text](assets/images/readMePhoto.png)

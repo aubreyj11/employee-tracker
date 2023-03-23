@@ -32,9 +32,11 @@ Inquirer version 8.2.4 must be installed for this application to work as well as
 After making sure all dependencies are installed, run 'node server.js' and prompts will appear. It will be connected to the database used to keep track of the employees, roles, and departments. Click on the option you would like to do (ex. View All Departments) and you will be given the means to complete that option. 
 
 <br><br><br>
-Watch the demo of how to use this application here: 
-[emp-track-walkthrough.webm](https://user-images.githubusercontent.com/116928146/227323633-b77d4ec6-8ac1-4af5-996f-539bd2bf115a.webm)
+Watch the demo of how to use this application here: <br><br>
+[Walkthrough Video](https://user-images.githubusercontent.com/116928146/227323633-b77d4ec6-8ac1-4af5-996f-539bd2bf115a.webm)
 
-![alt text](assets/images/readMePhoto.png)
+<br><br>
+Screenshot of output from application: <br><br>
+![alt text](images/readMePhoto.png)
 
 <br>

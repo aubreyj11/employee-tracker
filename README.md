@@ -33,6 +33,7 @@ After making sure all dependencies are installed, run 'node server.js' and promp
 
 <br><br><br>
 Watch the demo of how to use this application here: 
+[emp-track-walkthrough.webm](https://user-images.githubusercontent.com/116928146/227323633-b77d4ec6-8ac1-4af5-996f-539bd2bf115a.webm)
 
 ![alt text](assets/images/readMePhoto.png)
 
